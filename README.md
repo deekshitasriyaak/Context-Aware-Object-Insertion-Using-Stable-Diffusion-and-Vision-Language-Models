@@ -2,7 +2,7 @@
 
 This project introduces an innovative method for seamlessly inserting an object from one image into a scene from another image while considering perspective, size, and contextual relevance. By integrating a pre-trained Stable Diffusion Inpainting pipeline with the Vision-Language Model (VLM) LLaVa, our approach ensures high-quality results. The workflow begins with two input images and a user-defined mask. LLaVa extracts detailed features and generates an accurate textual description of the object. This description, along with the scene image and mask, is then processed by the Stable Diffusion pipeline. The result is a highly realistic and contextually coherent inpainting, suitable for applications in augmented reality, digital art, interior design, and content creation.
 
-<u>Methodology</u>
+###Methodology
 
 Our approach combines vision-language modeling and diffusion-based image generation for contextually aware object insertion in images. It consists of three main components:
 
@@ -24,6 +24,6 @@ The implementation uses libraries like transformers, diffusers, torch, and PIL o
 
 
 
-Architecture:
+###Architecture:
 
 <img width="662" alt="Screenshot 2024-07-15 at 10 08 05 AM" src="https://github.com/user-attachments/assets/55cb2c9b-5e06-450d-9298-3fae1727e6dd">
